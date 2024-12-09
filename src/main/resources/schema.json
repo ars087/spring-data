@@ -1,0 +1,86 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "Customer": {
+      "type": "object",
+      "properties": {
+        "customerId": {
+          "type": "integer"
+        },
+        "firstName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "lastName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "email": {
+          "type": "string",
+          "format": "email"
+        },
+        "contactNumber": {
+          "type": "string"
+        }
+      },
+      "required": ["firstName", "lastName", "email"]
+    },
+    "Order": {
+      "type": "object",
+      "properties": {
+        "orderId": {
+          "type": "integer"
+        },
+        "customer": {
+          "$ref": "#/properties/Customer"
+        },
+        "products": {
+          "type": "array",
+          "items": {
+            "$ref": "#/properties/Product"
+          }
+        },
+        "orderDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "shippingAddress": {
+          "type": "string",
+          "minLength": 1
+        },
+        "totalPrice": {
+          "type": "number"
+        },
+        "orderStatus": {
+          "type": "string"
+        }
+      },
+      "required": ["customer", "shippingAddress"]
+    },
+    "Product": {
+      "type": "object",
+      "properties": {
+        "productId": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string"
+        },
+        "price": {
+          "type": "number",
+          "minimum": 0
+        },
+        "quantityInStock": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "required": ["name", "price", "quantityInStock"]
+    }
+  }
+}

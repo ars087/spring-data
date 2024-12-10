@@ -1,10 +1,10 @@
-package com.javaCodeSpringData.SpringDataProjecMapper.controller;
+package com.javaCodeSpringMVC.SpringMvcProjectMapper.controller;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.javaCodeSpringData.SpringDataProjecMapper.controller.exception.CustomBedRequestException;
-import com.javaCodeSpringData.SpringDataProjecMapper.model.Product;
-import com.javaCodeSpringData.SpringDataProjecMapper.service.ProductService;
+import com.javaCodeSpringMVC.SpringMvcProjectMapper.controller.exception.CustomBedRequestException;
+import com.javaCodeSpringMVC.SpringMvcProjectMapper.model.Product;
+import com.javaCodeSpringMVC.SpringMvcProjectMapper.service.ProductService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;

@@ -1,4 +1,4 @@
-package com.javaCodeSpringData.SpringDataProjecMapper;
+package com.javaCodeSpringMVC.SpringMvcProjectMapper;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

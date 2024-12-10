@@ -1,6 +1,6 @@
-package com.javaCodeSpringData.SpringDataProjecMapper.repository;
+package com.javaCodeSpringMVC.SpringMvcProjectMapper.repository;
 
-import com.javaCodeSpringData.SpringDataProjecMapper.model.Product;
+import com.javaCodeSpringMVC.SpringMvcProjectMapper.model.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ProductRepository extends JpaRepository<Product, Long> {

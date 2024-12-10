@@ -1,7 +1,7 @@
-package com.javaCodeSpringData.SpringDataProjecMapper.controller;
+package com.javaCodeSpringMVC.SpringMvcProjectMapper.controller;
 
-import com.javaCodeSpringData.SpringDataProjecMapper.model.Customer;
-import com.javaCodeSpringData.SpringDataProjecMapper.service.CustomerService;
+import com.javaCodeSpringMVC.SpringMvcProjectMapper.model.Customer;
+import com.javaCodeSpringMVC.SpringMvcProjectMapper.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

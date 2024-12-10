@@ -1,4 +1,4 @@
-package com.javaCodeSpringData.SpringDataProjecMapper.controller.exception;
+package com.javaCodeSpringMVC.SpringMvcProjectMapper.controller.exception;
 
 public class CustomNotFoundException extends RuntimeException {
 

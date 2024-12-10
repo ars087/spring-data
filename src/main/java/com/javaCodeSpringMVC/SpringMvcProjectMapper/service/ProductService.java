@@ -1,8 +1,8 @@
-package com.javaCodeSpringData.SpringDataProjecMapper.service;
+package com.javaCodeSpringMVC.SpringMvcProjectMapper.service;
 
-import com.javaCodeSpringData.SpringDataProjecMapper.controller.exception.CustomNotFoundException;
-import com.javaCodeSpringData.SpringDataProjecMapper.model.Product;
-import com.javaCodeSpringData.SpringDataProjecMapper.repository.ProductRepository;
+import com.javaCodeSpringMVC.SpringMvcProjectMapper.controller.exception.CustomNotFoundException;
+import com.javaCodeSpringMVC.SpringMvcProjectMapper.model.Product;
+import com.javaCodeSpringMVC.SpringMvcProjectMapper.repository.ProductRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

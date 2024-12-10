@@ -1,4 +1,4 @@
-package com.javaCodeSpringData.SpringDataProjecMapper.controller.exception;
+package com.javaCodeSpringMVC.SpringMvcProjectMapper.controller.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

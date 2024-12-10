@@ -1,6 +1,6 @@
-package com.javaCodeSpringMVC.SpringMvcProjectMapper.repository;
+package com.javaCodeSpringMVC.repository;
 
-import com.javaCodeSpringMVC.SpringMvcProjectMapper.model.Order;
+import com.javaCodeSpringMVC.model.Order;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface OrderRepository extends JpaRepository<Order, Long> {

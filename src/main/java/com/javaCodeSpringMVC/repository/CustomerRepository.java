@@ -1,6 +1,6 @@
-package com.javaCodeSpringMVC.SpringMvcProjectMapper.repository;
+package com.javaCodeSpringMVC.repository;
 
-import com.javaCodeSpringMVC.SpringMvcProjectMapper.model.Customer;
+import com.javaCodeSpringMVC.model.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface CustomerRepository extends JpaRepository<Customer, Long> {

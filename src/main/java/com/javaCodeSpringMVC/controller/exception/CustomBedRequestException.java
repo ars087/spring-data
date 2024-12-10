@@ -1,4 +1,4 @@
-package com.javaCodeSpringMVC.SpringMvcProjectMapper.controller.exception;
+package com.javaCodeSpringMVC.controller.exception;
 
 public class CustomBedRequestException extends RuntimeException {
     public CustomBedRequestException(String message) {

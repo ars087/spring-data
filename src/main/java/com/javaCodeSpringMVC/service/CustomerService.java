@@ -1,7 +1,7 @@
-package com.javaCodeSpringMVC.SpringMvcProjectMapper.service;
+package com.javaCodeSpringMVC.service;
 
-import com.javaCodeSpringMVC.SpringMvcProjectMapper.model.Customer;
-import com.javaCodeSpringMVC.SpringMvcProjectMapper.repository.CustomerRepository;
+import com.javaCodeSpringMVC.model.Customer;
+import com.javaCodeSpringMVC.repository.CustomerRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

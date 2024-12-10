@@ -1,4 +1,4 @@
-package com.javaCodeSpringMVC.SpringMvcProjectMapper.model;
+package com.javaCodeSpringMVC.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

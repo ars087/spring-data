@@ -1,8 +1,8 @@
-package com.javaCodeSpringMVC.SpringMvcProjectMapper.service;
+package com.javaCodeSpringMVC.service;
 
-import com.javaCodeSpringMVC.SpringMvcProjectMapper.controller.exception.CustomNotFoundException;
-import com.javaCodeSpringMVC.SpringMvcProjectMapper.model.Order;
-import com.javaCodeSpringMVC.SpringMvcProjectMapper.repository.OrderRepository;
+import com.javaCodeSpringMVC.controller.exception.CustomNotFoundException;
+import com.javaCodeSpringMVC.model.Order;
+import com.javaCodeSpringMVC.repository.OrderRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.javaCodeSpringMVC.SpringMvcProjectMapper;
+package com.javaCodeSpringMVC;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

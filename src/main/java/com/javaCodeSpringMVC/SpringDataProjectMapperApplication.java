@@ -1,13 +1,14 @@
-package com.javaCodeSpringMVC.SpringMvcProjectMapper;
+package com.javaCodeSpringMVC;
+
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringDataProjecMapperApplication {
+public class SpringDataProjectMapperApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringDataProjecMapperApplication.class, args);
+		SpringApplication.run(SpringDataProjectMapperApplication.class, args);
 	}
 
 }
